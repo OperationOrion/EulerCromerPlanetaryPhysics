@@ -8,7 +8,9 @@ methods—Forward Euler and Euler-Cromer—over 1-year and 3-year periods, with 
 
 Units and Constants:
 Defines conversion factors for units like astronomical units (AU), meters, seconds, days, and years.
-Sets universal constants: gravitational constant (G = 6.674e-11 m³ kg⁻¹ s⁻²) and the Sun's mass (m = 1.989e30 kg).
+
+Sets universal constants:
+Gravitational constant (G = 6.674e-11 m³ kg⁻¹ s⁻²) and the Sun's mass (m = 1.989e30 kg).
 
 Initial Conditions:
 Specifies initial positions (x0, y0, z0) in meters, converted from AU.
