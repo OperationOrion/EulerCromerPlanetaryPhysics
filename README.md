@@ -53,6 +53,8 @@ The orbital path in 2D projections (e.g., y vs x for the orbital plane).
 Comparisons of the Forward Euler and Euler-Cromer methods for different time steps and durations.
 The plots help assess the accuracy and stability of each method (e.g., smaller dt values yield more accurate results, and Euler-Cromer typically conserves energy better).
 
-Likely Application for Further Study:
+Moving forward from the project:
+Forward Euler uses x_{n+1} = x_n + h * f(x_n), but it struggles with energy drift in conservative systems like orbits.
+Euler-Cromer, or semi-implicit Euler, updates velocity first, then position, preserving energy better for oscillatory systems, Euler-Cromer also prevents spiraling by conserving energy, making it better for simulation accuracy.
 The initial conditions (e.g., position ~1 AU, velocities in AU/day) suggest the simulation models a body in a near-circular orbit around the Sun, possibly resembling Earth's orbit or an asteroid's.
 The project likely serves as an educational tool, demonstrating numerical integration techniques in orbital mechanics, comparing the accuracy of Forward Euler (less stable) vs. Euler-Cromer (more stable for oscillatory systems like orbits).
